@@ -99,17 +99,17 @@
                 <div class="col-md-4 column">
                 </div>
                 <div class="col-md-4 column">
-                    <form class="form-horizontal" role="form" action="/foodSafty/login">
+                    <form class="form-horizontal" role="form" action="/foodSafty/login" method="psot">
                         <div class="form-group">
-                            <label for="userId" class="col-sm-2 control-label">用户名</label>
+                            <label for="userId" class="col-sm-2 control-label">账户</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="userId" />
+                                <input type="text" class="form-control" name ="userId" id="userId" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="userPassword" class="col-sm-2 control-label">密码</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" id="userPassword" />
+                                <input type="password" class="form-control" name = "userPassword" id="userPassword" />
                             </div>
                         </div>
                         <div class="form-group">
@@ -172,6 +172,12 @@
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+<script src="https://cdn.bootcss.com/jquery-countdown/2.0.2/jquery.countdown.min.js"></script>
+
+<<%--script src="/resources/script/foodSafty.js" type="text/javascript"></script>--%>
 </body>
 </html>
 

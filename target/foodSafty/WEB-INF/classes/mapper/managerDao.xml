@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.foodsafty.dao.managerDao">
 
-    <select id="queryByManagerId" resultType="user">
+    <select id="queryByManagerId" resultType="manager">
         select manager_id,manager_password
         from manager
         where manager_id = #{userId}

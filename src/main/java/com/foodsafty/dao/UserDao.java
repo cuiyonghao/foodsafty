@@ -4,7 +4,7 @@ import com.foodsafty.entity.user;
 
 import java.util.List;
 
-public interface userDao {
+public interface UserDao {
 
     /**
      * 查询数据库中所有user的信息

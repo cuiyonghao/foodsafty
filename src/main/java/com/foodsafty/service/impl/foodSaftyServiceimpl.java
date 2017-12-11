@@ -1,7 +1,7 @@
 package com.foodsafty.service.impl;
 
 import com.foodsafty.dao.managerDao;
-import com.foodsafty.dao.userDao;
+import com.foodsafty.dao.UserDao;
 import com.foodsafty.dto.managerLogin;
 import com.foodsafty.dto.userLogin;
 import com.foodsafty.dto.userRegister;
@@ -21,10 +21,10 @@ public class foodSaftyServiceimpl implements FoodSaftyService{
     @Autowired
     private managerDao managerDao;
     @Autowired
-    private userDao userDao;
-    @Autowired
+    private UserDao userDao;
+
     private user user;
-    @Autowired
+
     private manager manager;
     public void foodSaftyServiceimpl(){
     }
